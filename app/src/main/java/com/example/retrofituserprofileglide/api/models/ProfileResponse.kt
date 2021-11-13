@@ -1,4 +1,4 @@
-package com.example.retrofituserprofileglide
+package com.example.retrofituserprofileglide.api.models
 
 import com.google.gson.annotations.Expose
 

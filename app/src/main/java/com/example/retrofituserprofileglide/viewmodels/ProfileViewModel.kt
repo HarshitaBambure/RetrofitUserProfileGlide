@@ -1,7 +1,9 @@
-package com.example.retrofituserprofileglide
+package com.example.retrofituserprofileglide.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
+import com.example.retrofituserprofileglide.api.models.Resource
+import com.example.retrofituserprofileglide.repository.ProfileRepository
 
 class ProfileViewModel(private val mProfileRepository: ProfileRepository) : ViewModel(){
 
@@ -10,7 +12,7 @@ class ProfileViewModel(private val mProfileRepository: ProfileRepository) : View
         try{
             emit(Resource.success(mProfileRepository.getUserProfile()))
         } catch (e:Exception){
-            emit(Resource.error(null,e.message.toString()))
+            emit(Resource.error(null, e.message.toString()))
         }
     }
 

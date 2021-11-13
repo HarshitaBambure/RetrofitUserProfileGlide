@@ -1,4 +1,4 @@
-package com.example.retrofituserprofileglide
+package com.example.retrofituserprofileglide.utils
 
 
 enum class Status {

@@ -1,4 +1,4 @@
-package com.example.retrofituserprofileglide
+package com.example.retrofituserprofileglide.utils
 
 
 import com.bumptech.glide.annotation.GlideModule

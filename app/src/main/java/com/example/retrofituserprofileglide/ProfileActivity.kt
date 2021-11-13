@@ -10,6 +10,11 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.example.retrofituserprofileglide.api.AppCreator
+import com.example.retrofituserprofileglide.api.models.ProfileResponse
+import com.example.retrofituserprofileglide.utils.Status
+import com.example.retrofituserprofileglide.viewmodels.ProfileViewModel
+import com.example.retrofituserprofileglide.viewmodels.ViewModelFactory
 import kotlinx.android.synthetic.main.activity_profile.*
 
 class ProfileActivity : AppCompatActivity() {
